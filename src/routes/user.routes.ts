@@ -3,7 +3,6 @@ import { Router } from "express";
 import { UserRepositories } from "../modules/cars/repositories/UserRepository";
 import { CreateUserUseCase } from "../modules/cars/useCases/createUsers/CreateUserUseCase";
 import { listUserController } from "../modules/cars/useCases/listUser";
-import { ListUserController } from "../modules/cars/useCases/listUser/ListUserController";
 
 const userRoutes = Router();
 const userRepository = UserRepositories.getInstance();
